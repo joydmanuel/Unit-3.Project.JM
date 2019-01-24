@@ -2,18 +2,23 @@ Before you start
 To prepare for this project you'll need to make sure you complete and understand these steps.
 
  2 steps
-x Download the project files. We've supplied HTML/CSS shell files for you to connect your project.
+X Download the project files. We've supplied HTML/CSS shell files for you to connect your project.
 
-x Convert the HTML files to PHP files and pull out the header and footer to be managed in one place.
+X Convert the HTML files to PHP files and pull out the header and footer to be managed in one place.
 
 
 Project Instructions
 To complete this project, follow the instructions below. If you get stuck, ask a question on Slack or in the Treehouse Community.
 
  8 steps
-After you convert the HTML files to PHP files and pull out the header and footer to be managed in one place, add a database.db file within a inc directory. Set the permission of both the directory and the file to everyone read/write/execute (chmod 777).
+X After you convert the HTML files to PHP files and pull out the header and footer to be managed in one place,
 
-Create a PDO connection to the SQLite (database.db) file within the inc folder. Use prepared statements to add/edit/delete journal entries in the database.
+x add a journal.db (in lieu of database.db) file within a inc directory.
+x (this step is not needed) Set the permission of both the directory and the file to everyone read/write/execute (chmod 777).
+
+x Create a PDO connection to the SQLite journal.db (in lieu of database.db) file within the inc folder. (connection.php)
+
+Use prepared statements to add/edit/delete journal entries in the database.
 
 Create “add/edit” view for the entry page that allows the user to add or edit journal entries with the following fields: Title, Date, Time Spent, What You Learned, Resources to Remember. Each journal entry should have a unique primary key.
 

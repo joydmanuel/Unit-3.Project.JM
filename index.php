@@ -1,4 +1,9 @@
 <?php include("inc/header.php"); ?>
+<?php include("inc/connection.php");
+var_dump($db);
+
+?>
+
 <!DOCTYPE html>
 <html>
 
